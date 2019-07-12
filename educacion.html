@@ -5,10 +5,97 @@
     <title>Eduación</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Inicio</a>
-        |
-        <a href="experiencia.html">Experiencia</a>
-    </nav>
+
+    <header>
+        <!-- Codigo del logo -->
+        <img src="images/logo_yamil.svg" alt="logo" name="Logo del curriculum" width="200px">
+    </header>
+    <section>        <!--  -->
+        <h1>Resumen Curricular</h1>
+        <article>
+            <h2>Datos Personales</h2>
+            <h3>Yamil Alberto Peña Loayza</h3>
+            <h3>23 de agosto de 1990</h3>
+        </article>
+        <nav>
+            <a href="index.html">Inicio</a>
+            |
+            <a href="experiencia.html">Experiencia</a>
+        </nav>
+        <article>
+            <!-- tabla de educacion -->
+            <h2>Educación</h2>
+            <table border="1">
+                <!-- Cabezal del cuadro -->
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2017</td>
+                        <td>DAI</td>
+                        <td>Cusco</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>UNSAAAC</td>
+                        <td>Cusco</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>SENCICO</td>
+                        <td>Cusco</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>CIMUVI</td>
+                        <td>Cusco</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Formuario de Educacion -->
+            <h3>Agregar Estudio</h3>
+            <form action="">
+                <p>
+                    <label for="year"><b>Año</b></label>
+                    <select name="year" id="year">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="institution"><b>Institución</b></label>
+                    <input type="text" name="institution" id="institution">
+                </p>
+                <p>
+                    <label for="place"><b>Lugar</b></label>
+                    <input type="text" name="place" id="place">
+                </p>
+                <p>
+                    <button type="reset">Enviar</button>
+                </p>
+            </form>
+        </article>
+    </section>
+    <footer>
+        y.alberto.pl@outlook.com
+        <br>
+        +51987312443
+        <br>
+        https://www.facebook.com/yamil-pl
+        <br>
+        Cusco-Perú
+    </footer>
 </body>
 </html>
